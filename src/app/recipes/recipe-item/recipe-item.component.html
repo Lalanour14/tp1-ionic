@@ -1,0 +1,8 @@
+<ion-item [routerLink]="['./',chat?.id]">
+  <ion-avatar slot="start">
+    <ion-img [src]="chat?.imageUrl"></ion-img>
+  </ion-avatar>
+  <ion-label>
+    {{ chat?.title }}
+  </ion-label>
+</ion-item>
